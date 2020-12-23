@@ -2,7 +2,7 @@
 
 **Version:** 1.0.8
 
-[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/OMF/BartIngress_DotNet?branchName=master)](https://dev.azure.com/osieng/engineering/_build?definitionId=1425&branchName=master)
+[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/OMF/osisoft.sample-omf-bart_ingress-dotnet?repoName=osisoft%2Fsample-omf-bart_ingress-dotnet&branchName=master)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2633&repoName=osisoft%2Fsample-omf-bart_ingress-dotnet&branchName=master)
 
 This sample uses OSIsoft Message Format to send real time data from the Bay Area Rapid Transit (BART) API to OSIsoft Cloud Services, Edge Data Store, and/or PI Web API. Once the sample is started, a timer polls the BART API every 10 seconds for the latest real time estimated times of departure, and sends that data to the configured OMF endpoints.
 
