@@ -13,7 +13,7 @@ The [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/) is refe
 ### Bay Area Rapid Transit
 
 1. Review the BART [Developer License Agreement](https://www.bart.gov/schedules/developers/developer-license-agreement) and get an API validation key from the [BART API website](https://www.bart.gov/schedules/developers/api), or use their public API key
-1. The sample is configured using the file [appsettings.placeholder.json](BartIngress\appsettings.placeholder.json). Before editing, rename this file to `appsettings.json`. This repository's `.gitignore` rules should prevent the file from ever being checked in to any fork or branch, to ensure credentials are not compromised.
+1. The sample is configured using the file [appsettings.placeholder.json](BartIngress/appsettings.placeholder.json). Before editing, rename this file to `appsettings.json`. This repository's `.gitignore` rules should prevent the file from ever being checked in to any fork or branch, to ensure credentials are not compromised.
 1. Enter the API key into the `BartApiKey` field of `appsettings.json`
 1. (Optional) Update the `BartApiOri` and/or `BartApiDest` fields
    1. These fields specify the origin and destination stations to collect route data for
@@ -74,5 +74,5 @@ The test sends a single OMF type, container, and data message to each of the con
 
 ---
 
-For the OMF landing page [ReadMe](../../../)  
-For the OSIsoft Samples landing page [ReadMe](https://github.com/osisoft/OSI-Samples)
+For the main OMF samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples-OMF)  
+For the main OSIsoft samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples)
