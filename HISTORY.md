@@ -1,5 +1,10 @@
 # Version History
 
+## 1.0.10 / 2021-03-25
+
+- Updated pipeline to use internal agent pool
+- Updated pipeline to reference main branch
+
 ## 1.0.9 / 2020-01-27
 
 - Added new styling guide
